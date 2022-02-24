@@ -1,0 +1,10 @@
+version: '3.3'
+services:
+  backend:
+      image: dto80/234-lab11
+      ports:
+        - "8090:8080"
+      frontend:
+        image: yasinthon04/automated
+        ports:
+          - "8091:80"
